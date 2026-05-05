@@ -1,0 +1,15 @@
+requests
+beautifulsoup4
+lxml
+pandas
+python-dateutil
+tqdm
+scikit-learn
+xgboost
+joblib
+pmdarima
+prophet
+selenium
+webdriver-manager
+statsmodels
+optuna
