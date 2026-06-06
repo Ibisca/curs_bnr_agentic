@@ -93,12 +93,6 @@ Output: HTML interactiv și JSON în `reports/`.
   - pipeline/train_pipeline.py
 - [requirements.txt](requirements.txt)
 - [README.md](README.md)
-- [workspace_smoke_test.py](workspace_smoke_test.py)
-- full_page.html
-- tmp_arhiva.html
-- tmp_form.html
-- tmp_table.html
-
 ## Note și recomandări
 
 - Modelul final obținut este XGBoost-Optuna, optimizat cu Optuna pentru hiperparametri.

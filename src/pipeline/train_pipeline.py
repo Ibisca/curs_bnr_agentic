@@ -26,9 +26,9 @@ import logging
 from pathlib import Path
 from typing import Optional
 
-from src.data_loader import load_raw, preprocess, split_train_val_test
-from src.features import build_features
-from src.models import (
+from src.data.data_loader import load_raw, preprocess, split_train_val_test
+from src.features.features import build_features
+from src.models.models import (
     tune_sarima,
     tune_prophet,
     tune_xgboost,
@@ -36,8 +36,8 @@ from src.models import (
     save_model,
     CVResult,
 )
-from src.evaluate import evaluate_best_model, find_latest_best_model
-from src.plotly_viz import load_plot_data, build_figure, save_figure
+from src.evaluation.evaluate import evaluate_best_model, find_latest_best_model
+from src.visualization.plotly_viz import load_plot_data, build_figure, save_figure
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")

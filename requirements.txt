@@ -2,10 +2,12 @@ requests
 beautifulsoup4
 lxml
 pandas
+numpy
 python-dateutil
 tqdm
 scikit-learn
 xgboost
+plotly
 joblib
 pmdarima
 prophet

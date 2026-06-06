@@ -27,9 +27,9 @@ import joblib
 import numpy as np
 import pandas as pd
 
-from src.data_loader import load_raw, preprocess, split_train_val_test
-from src.features import build_features
-from src.models import compute_metrics
+from src.data.data_loader import load_raw, preprocess, split_train_val_test
+from src.features.features import build_features
+from src.models.models import compute_metrics
 
 try:
     import xgboost as xgb

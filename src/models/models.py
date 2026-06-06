@@ -356,8 +356,8 @@ def save_model(obj: Any, path: str | Path) -> Path:
 
 if __name__ == "__main__":
     import argparse
-    from src.data_loader import load_raw, preprocess, split_train_val_test
-    from src.features import build_features
+    from src.data.data_loader import load_raw, preprocess, split_train_val_test
+    from src.features.features import build_features
 
     logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser()
