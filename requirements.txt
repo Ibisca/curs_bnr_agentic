@@ -15,3 +15,8 @@ selenium
 webdriver-manager
 statsmodels
 optuna
+fastapi
+uvicorn
+streamlit
+python-dotenv
+google-genai
