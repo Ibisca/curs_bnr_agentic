@@ -1,4 +1,4 @@
-# AIE_Tema3_CursValutar — Proiect Final
+# AIE_CursValutar — Proiect Final
 
 Aplicație pentru colectarea, stocarea, analizarea și prognozarea cursului valutar EUR/RON, realizată pentru proiectul final AIE.
 
